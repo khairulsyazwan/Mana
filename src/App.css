@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .App-logo {
@@ -35,4 +36,76 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.home {
+  background-image: url("https://images.unsplash.com/photo-1570530189997-6fd94e9efee5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.home h1{
+  font-size: 13rem;
+  font-weight: bold;
+  text-shadow: 3px 2px 5px #000000;
+}
+
+.home h3{
+  font-size: 2rem;
+  /* font-weight: bold; */
+  text-shadow: 3px 2px 5px #000000;
+}
+
+.home i{
+  font-size: 6rem;
+  /* font-weight: bold; */
+  text-shadow: 3px 2px 5px #000000;
+}
+
+.item{
+  border: 0px solid white;
+  border-radius: 10%;
+
+}
+
+.item .nav-link{
+  color: white;
+  text-shadow: 3px 2px 5px #000000;
+  font-size: 1.5rem;
+}
+
+.info :hover{
+  color:black;
+  background-color: whitesmoke;
+}
+
+.brand{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+}
+
+.navi {
+  background-color: #000000;
+}
+
+
+.menu {
+  background-image: url("https://images.unsplash.com/photo-1570530189997-6fd94e9efee5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 110vh;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.cardnav h1{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px #292828;
 }

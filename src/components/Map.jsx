@@ -14,15 +14,7 @@ const center = {
     lng: 103.8198,
 }
 
-function Map({lat, lng,  topic, id}) {
-
-
-    // let location = {
-    //     lat: loc.latitude,
-    //     lng: loc.longitude
-    // }
-
-    
+function Map({loc, loc2, id, topic}) {
 
     const {isLoaded, loadError} = useLoadScript({
         googleMapsApiKey: process.env.REACT_APP_API_KEY_GMAP,
@@ -34,7 +26,6 @@ function Map({lat, lng,  topic, id}) {
     if (!isLoaded) return "loading Maps";
 
 
-
     const onLoad = marker => {
         // console.log('marker: ', marker)
       }
@@ -42,9 +33,9 @@ function Map({lat, lng,  topic, id}) {
 
     return (
         <div>
-            <GoogleMap mapContainerStyle={mapContainerStyle} zoom={10} center={center} >
-            {/* <Marker onLoad={onLoad} position={location} />
-            <Marker onLoad={onLoad} position={loc} /> */}
+            <GoogleMap mapContainerStyle={mapContainerStyle} zoom={11} center={center} >
+            {loc2 && <Marker onLoad={onLoad} position={loc2} />}
+            <Marker onLoad={onLoad} position={loc} />
             </GoogleMap>
 
         </div>
@@ -52,3 +43,12 @@ function Map({lat, lng,  topic, id}) {
 }
 
 export default Map
+
+
+
+
+
+
+
+
+

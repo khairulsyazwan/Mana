@@ -7,10 +7,10 @@ import logo from '../logo.svg';
 function Navigation() {
     return (
         <>
-        <Navbar bg="dark" variant="dark">
-          <Navbar.Brand href="#home">Mana</Navbar.Brand>
-          <Nav className="mr-auto">
-            <NavLink className="nav-link" to="/">Home</NavLink>
+        <Navbar variant="dark" className="navi">
+  
+          <Nav className="mx-auto">
+          <NavLink className="nav-link font-weight-bold brand" to="/">MANA</NavLink>
           </Nav>
 
         </Navbar>

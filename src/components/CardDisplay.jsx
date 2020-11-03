@@ -10,14 +10,16 @@ function CardDisplay({ info, topic }) {
         <Row className="my-5">
             <CardDeck>
           {info.map((single, index) => (
-            <Col md={4} className="my-3">
-            <Card key={single.id} border="dark" >
-            <Card.Body>
-                <h1>{single.name}</h1> 
-          
-                <NavLink to={`/${topic}/${single.id}`} className="btn btn-warning btn-block">View</NavLink>
-            </Card.Body>
+            <Col key={single.id} md={4} className="my-3">
+
+            <Card  border="light" style={{ backgroundImage: `url(${single.bgurl})`, height: "30vh", backgroundSize: 'cover'}}>
+
+            <Card.Title className="m-auto text-center font-weight-bold">
+            
+                <NavLink to={`/${topic}/${single.id}`} className="nav-link cardnav"><h1>{single.name}</h1> </NavLink>
+            </Card.Title>
             </Card>
+
             </Col>
             
             

@@ -3,6 +3,7 @@ import { Breadcrumb, Container, Col, Row } from 'react-bootstrap';
 import { NavLink, useParams } from 'react-router-dom';
 import { showLat, showOne } from '../utilities/functions';
 import Map from './Map';
+import Navigation from './Navigation';
 
 
 
@@ -15,28 +16,27 @@ function Page() {
 
     useEffect(() => {
         showOne(topic, id, setSingle)
-        console.log("done");
     }, [])
 
-    // console.log(single.location.getLatitude());
-
-    
 
     return (
+        <>
+        <Navigation />
         <Container>
             <Row>
             <Col md={12}>
-            <Breadcrumb>
-            <NavLink to={`/${topic}`} className="breadcrumb-item active">{topic}</NavLink>
-            <Breadcrumb.Item active>{single.name}</Breadcrumb.Item>
-            </Breadcrumb>
+                <Breadcrumb>
+                <NavLink to={`/${topic}`} className="breadcrumb-item active" style={{textTransform: 'capitalize'}} >{topic}</NavLink>
+                <Breadcrumb.Item active>{single.name}</Breadcrumb.Item>
+                </Breadcrumb>
             </Col>
             </Row>
             
             <Row>
             <Col md={6}>
-                <img src="https://images.unsplash.com/photo-1543839482-a95d35fc5a77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80" class="img-fluid"></img>
-                <Map topic={topic} id={id} />
+                <Map topic={topic} id={id} loc={single.location} loc2={single.end} />
+                <img src="https://images.unsplash.com/photo-1543839482-a95d35fc5a77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80" class="img-fluid h-90"></img>
+                
             </Col>
             
             <Col md={6}>
@@ -46,8 +46,8 @@ function Page() {
             </Col>
             </Row>
 
-
         </Container>
+        </>
     )
 }
 
