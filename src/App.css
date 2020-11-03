@@ -94,7 +94,7 @@
 
 
 .menu {
-  background-image: url("https://images.unsplash.com/photo-1570530189997-6fd94e9efee5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80");
+  background-image: url("https://images.unsplash.com/photo-1578952036998-0b36660cd75c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -109,3 +109,15 @@
   font-weight: bold;
   text-shadow: 2px 2px 10px #292828;
 }
+
+.page {
+  background-image: url("https://images.unsplash.com/photo-1526289034009-0240ddb68ce3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+
