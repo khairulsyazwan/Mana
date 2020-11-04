@@ -13,8 +13,6 @@ function Home() {
             <div className="align-items-center">
             <h1>MANA</h1>
             <h3>All geared up and ready to go. But one question still remains, where to? Mana is here to help you plan and decide your next ride.</h3>
-            {/* <NavLink to={`/roads`} className="btn btn-primary">Roads</NavLink>
-            <NavLink to={`/places`} className="btn btn-primary">Places</NavLink> */}
 
             <div className="d-flex justify-content-center info">
                 <div className="mx-5 p-3 item">

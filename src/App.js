@@ -1,8 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import React, { useState } from 'react';
-import Navigation from './components/Navigation';
 import Home from './components/Home';
 import Menu from './components/Menu';
 import Page from './components/Page';

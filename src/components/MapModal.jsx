@@ -48,47 +48,42 @@ function MapModal({add}) {
           <hr className='mt-0 mb-3' />
 
           <div className='row'>
-            <div className='col-md-6 col-lg-4'>
-              <div className='form-group'>
-                <label htmlFor='ORIGIN'>Origin</label>
-                <br />
-                <input id='ORIGIN' className='form-control' type='text' ref={getOrigin} />
+            <div className='col-md-6 col-lg-6'>
+              <div className='form-group d-flex'>
+                <input id='ORIGIN' className='form-control' type='text' ref={getOrigin} placeholder="Enter Postal Code Here"/>
               </div>
             </div>
+            <div className='col-md-6 col-lg-6'>
+                <button className='btn btn-primary' type='button' onClick={onClick}>
+                    Let's go!
+                </button>
+              </div>
 
           </div>
 
 
-          <button className='btn btn-primary' type='button' onClick={onClick}>
-            Build Route
-          </button>
+
         </div>
 
         <div className='map-container'>
           <GoogleMap
-            // required
             id='direction-example'
-            // required
             mapContainerStyle={{
               height: '600px',
               width: '100%'
             }}
-            // required
             zoom={12}
-            // required
             center={center}
             options={options}
           >
             {
               (origin !== '') && (
                 <DirectionsService
-                  // required
                   options={{ 
                     destination: add,
                     origin: origin,
                     travelMode: travelMode
                   }}
-                  // required
                   callback={directionsCallback}
                 />
               )
@@ -97,7 +92,6 @@ function MapModal({add}) {
             {
               response !== null && (
                 <DirectionsRenderer
-                  // required
                   options={{ 
                     directions: response
                   }}

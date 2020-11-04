@@ -62,7 +62,6 @@
 
 .home i{
   font-size: 6rem;
-  /* font-weight: bold; */
   text-shadow: 3px 2px 5px #000000;
 }
 
@@ -118,6 +117,10 @@
   height: 100vh;
   font-family: 'Montserrat', sans-serif;
   color: white;
+}
+
+.boxes :hover {
+  text-shadow: 5px 5px 10px #000000;;
 }
 
 

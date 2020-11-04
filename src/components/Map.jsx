@@ -1,14 +1,8 @@
-import React, {useEffect, useState} from 'react'
-import { GoogleMap, useLoadScript, Marker, DirectionsService, DirectionsRenderer } from '@react-google-maps/api';
-import { showOne } from '../utilities/functions';
+import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
 import mapStyle from '../utilities/MapStyle.js';
 
 
-
-
-function Map({loc, loc2, id, topic}) {
-
-
+function Map({loc, loc2}) {
     const libraries = ["places"];
     const mapContainerStyle = {
         width: '100%',
