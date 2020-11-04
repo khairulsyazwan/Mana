@@ -69,7 +69,7 @@ function MapModal({add}) {
           <GoogleMap
             id='direction-example'
             mapContainerStyle={{
-              height: '600px',
+              height: '400px',
               width: '100%'
             }}
             zoom={12}

@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 function CardDisplay({ info, topic }) {
     return (
         <Container>
-        <Row className="my-5">
+        <Row className="my-2">
             <CardDeck>
           {info.map((single) => (
             <Col key={single.id} md={4} className="my-3 boxes">
