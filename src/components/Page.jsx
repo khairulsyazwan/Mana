@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Breadcrumb, Container, Col, Row, Carousel, Button, Modal } from 'react-bootstrap';
-import { NavLink, useParams } from 'react-router-dom';
+import { NavLink, useParams, Redirect } from 'react-router-dom';
 import { showOne } from '../utilities/functions';
 import Map from './Map';
 import MapModal from './MapModal';
