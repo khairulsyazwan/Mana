@@ -1,6 +1,6 @@
 ## Introduction
 SEI 25 - Project 2
-React App is hosted here: https://pages.git.generalassemb.ly/khairulsyazwan/Mana/
+
 
 Start Page
 <img src="media/mainpage.png">
