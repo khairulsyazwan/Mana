@@ -3,14 +3,14 @@ SEI 25 - Project 2
 React App is hosted here: https://pages.git.generalassemb.ly/khairulsyazwan/Mana/
 
 Start Page
-<img src="mainpage.png">
+<img src="media/mainpage.png">
 Menu 
-<img src="menupage.png">
+<img src="media/menupage.png">
 Info Page
-<img src="infopage.png">
+<img src="media.infopage.png">
 Map Modal
-<img src="mapmodal.png">
-<img src="mapmodal2.png">
+<img src="media/mapmodal.png">
+<img src="media/mapmodal2.png">
 
 #### React App Objectives
 I have realised that most of the time when I'm out with my buddies to go for a ride, we barely have any places in min that we want to go to, and we'll spend alot of time thinking and riding to nowhere.
@@ -51,5 +51,6 @@ I created this app to simplify that thinking process by giving suggestions and p
 
 #### Wireframes
 
-<img src="wireframe.jpg">
-<img src="wireframe2.jpg">
+<img src="media/wireframe.jpg">
+<img src="media/wireframe2.jpg">
+
