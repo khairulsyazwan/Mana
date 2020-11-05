@@ -10,8 +10,6 @@ function App() {
 
   const [info, setInfo] = useState([])
 
-
-
   return (
     <Router>
 
