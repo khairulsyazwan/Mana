@@ -9,7 +9,7 @@ function Navigation() {
         <Navbar variant="dark" className="navi">
   
           <Nav className="mx-auto">
-          <NavLink className="nav-link font-weight-bold brand" to="/">MANA</NavLink>
+          <NavLink className="nav-link font-weight-bold brand" to="/khairulsyazwan/Mana">MANA</NavLink>
           </Nav>
 
         </Navbar>
