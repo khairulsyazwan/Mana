@@ -1,71 +1,55 @@
-# Getting Started with Create React App
+## Introduction
+SEI 25 - Project 2
+React App is hosted here: https://pages.git.generalassemb.ly/khairulsyazwan/Mana/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Start Page
+<img src="mainpage.png">
+Menu 
+<img src="menupage.png">
+Info Page
+<img src="infopage.png">
+Map Modal
+<img src="mapmodal.png">
+<img src="mapmodal2.png">
 
-## Available Scripts
+#### React App Objectives
+I have realised that most of the time when I'm out with my buddies to go for a ride, we barely have any places in min that we want to go to, and we'll spend alot of time thinking and riding to nowhere.
 
-In the project directory, you can run:
+I created this app to simplify that thinking process by giving suggestions and perhaps places people have seen on social media but have no idea where they are.
 
-### `npm start`
+#### Project Objectives
+**Technical Requirements**
+- **Build a web application using create-react-app**.  Must be your own work.
+- **Use React framework** to build your application with *at least* 
+  - 3 components
+  - 4 props
+  - 2 state properties
+  - 2 setState
+  - 2 routes
+- **Use 3rd party API and/or Firestore**
+  - API call with Axios and display the data for the user. You may use any API of your choosing or [Find an available API here](https://github.com/public-apis/public-apis)
+  - You may also opt to use Firebase/Firestore if you need to store data.
+- **Craft a `README.md` file that explains your app** to the world. [README Template](https://github.com/SEI2-jeddah/README-Template/blob/master/README.md)
+- **Create wireframes** for your app and include it in your repo/readme.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Breakdown
 
-### `npm test`
+#### Technologies used:
+1. React
+2. CSS
+3. Bootstrap
+4. React-Bootstrap
+5. React Router
+6. React Google Maps API
+7. Firebase
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Further Possible Improvements
+- Addition of user accounts
+- Addition of adding places to favourites
+- Ability to add more places from the user
 
-### `npm run build`
+#### Wireframes
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Mana
+<img src="wireframe.png">
+<img src="wireframe2.png">
