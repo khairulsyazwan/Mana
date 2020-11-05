@@ -1,5 +1,9 @@
 ## Introduction
 SEI 25 - Project 2
+<<<<<<< HEAD
+=======
+
+>>>>>>> a4d89900713d6751fd3a9e51d4848bd8d8245841
 
 Start Page
 <img src="media/mainpage.png">
