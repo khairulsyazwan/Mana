@@ -17,6 +17,9 @@ function Page() {
         showOne(topic, id, setSingle)
     }, [])
 
+    if(id == "khairulsyazwan"){
+        return <Redirect to="/" />
+    }
 
     return (
         <div className="page">
