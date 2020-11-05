@@ -6,7 +6,6 @@ import Map from './Map';
 import MapModal from './MapModal';
 import Navigation from './Navigation';
 
-
 function Page() {
     const [lgShow, setLgShow] = useState(false);
     const [single, setSingle] = useState([])
@@ -34,6 +33,7 @@ function Page() {
             
             <Row>
             <Col md={6}>
+
                 <Carousel className="mh-90">
                 <Carousel.Item>
                     <Map topic={topic} id={id} loc={single.location} loc2={single.end} />
@@ -41,34 +41,33 @@ function Page() {
                 <Carousel.Item>
                     <img
                     className="d-block w-100 h-100"
-                    src={single.bgurl}
+                    src={single.img1}
+                    style={{maxHeight: '500px'}}
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                     className="d-block w-100 h-100"
-                    src={single.img1}
+                    src={single.bgurl}
+                    style={{maxHeight: '500px', height: '500px'}}
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                     className="d-block w-100 h-100"
                     src={single.img2}
+                    style={{maxHeight: '500px'}}
                     />
                 </Carousel.Item>
                 </Carousel>
 
-
-                
             </Col>
             
             <Col md={6}>
                 <h1>{single.name}</h1>
                 <h4>{single.address} <Button className="mx-3" variant="light" onClick={() => setLgShow(true)}>Directions</Button></h4> 
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At officia id veritatis itaque adipisci ipsa aliquam fuga inventore magnam? Veritatis fuga maxime dignissimos neque fugit explicabo, aliquid saepe minima nostrum autem inventore minus reprehenderit hic at quaerat nobis, fugiat eum rem eaque accusantium. Voluptate, commodi a quaerat minus exercitationem nobis voluptatum fugit error ipsa aspernatur voluptas laudantium explicabo modi accusantium eos ipsam ab? Blanditiis repellendus modi accusantium illum dolores, tempore, recusandae totam eveniet a reprehenderit, ducimus dolor iste quos mollitia quasi quisquam atque. Numquam laboriosam quisquam voluptates similique nemo odio voluptas quibusdam sapiente ad excepturi! Quam expedita sapiente nam dolores.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At officia id veritatis itaque adipisci ipsa aliquam fuga inventore magnam? Veritatis fuga maxime dignissimos neque fugit explicabo, aliquid saepe minima nostrum autem inventore minus reprehenderit hic at quaerat nobis, fugiat eum rem eaque accusantium.<br/> Voluptate, commodi a quaerat minus exercitationem nobis voluptatum fugit error ipsa aspernatur voluptas laudantium explicabo modi accusantium eos ipsam ab? Blanditiis repellendus modi accusantium illum dolores, tempore, recusandae totam eveniet a reprehenderit, ducimus dolor iste quos mollitia quasi quisquam atque.<br/> Numquam laboriosam quisquam voluptates similique nemo odio voluptas quibusdam sapiente ad excepturi! Quam expedita sapiente nam dolores.</p>
 
-
-                
 
                 <Modal
                 size="lg"

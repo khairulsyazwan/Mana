@@ -28,6 +28,7 @@ function MapModal({add}) {
             setResponse(response)
           } else {
             console.log('response: ', response)
+            alert("Please enter a valid address")
           }
         }
     }
@@ -50,11 +51,11 @@ function MapModal({add}) {
           <div className='row'>
             <div className='col-md-6 col-lg-6'>
               <div className='form-group d-flex'>
-                <input id='ORIGIN' className='form-control' type='text' ref={getOrigin} placeholder="Enter Postal Code Here"/>
+                <input id='ORIGIN' className='form-control' type='text' ref={getOrigin} placeholder="Enter Address/Postal Code Here"/>
               </div>
             </div>
             <div className='col-md-6 col-lg-6'>
-                <button className='btn btn-primary' type='button' onClick={onClick}>
+                <button className='btn btn-dark' type='button' onClick={onClick}>
                     Let's go!
                 </button>
               </div>
