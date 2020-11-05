@@ -51,5 +51,5 @@ I created this app to simplify that thinking process by giving suggestions and p
 
 #### Wireframes
 
-<img src="wireframe.png">
-<img src="wireframe2.png">
+<img src="wireframe.jpg">
+<img src="wireframe2.jpg">
