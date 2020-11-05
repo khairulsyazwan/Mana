@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 import React, { useState } from 'react';
 import Home from './components/Home';
 import Menu from './components/Menu';
@@ -14,7 +14,7 @@ function App() {
     <Router>
 
       <Switch>
-
+        <Redirect from="khairulsyazwan/Mana/" to="/" exact />
         <Route path="/" exact>
           <Home />
         </Route>

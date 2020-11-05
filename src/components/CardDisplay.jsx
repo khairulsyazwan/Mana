@@ -12,7 +12,7 @@ function CardDisplay({ info, topic }) {
           {info.map((single) => (
             <Col key={single.id} md={4} className="my-3 boxes">
 
-            <Card border="light" style={{ backgroundImage: `url(${single.bgurl})`, height: "30vh", backgroundSize: 'cover'}}>
+            <Card border="light"  style={{ backgroundImage: `url(${single.bgurl})`, height: "30vh", backgroundSize: 'cover'}}>
 
             <Card.Title className="m-auto text-center font-weight-bold">
                 <NavLink to={`/${topic}/${single.id}`} className="nav-link cardnav"><h1>{single.name}</h1> </NavLink>
