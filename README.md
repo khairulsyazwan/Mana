@@ -1,6 +1,6 @@
 ## Introduction
 SEI 25 - Project 2
-React App is hosted here - 
+React App is hosted here - https://mana-sg.herokuapp.com/
 
 Start Page
 <img src="media/mainpage.png">
