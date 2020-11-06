@@ -15,7 +15,7 @@ function App() {
 
       <Switch>
         {/* <Redirect from="khairulsyazwan/Mana" to="/" exact /> */}
-        <Route path="/khairulsyazwan/Mana" exact>
+        <Route path="/" exact>
           <Home />
         </Route>
 
